@@ -1,0 +1,32 @@
+package com.krishantha.training.salesmanager.service;
+
+import java.util.List;
+
+import com.krishantha.training.salesmanager.model.Employee;
+import com.krishantha.training.salesmanager.repository.EmployeeRepository;
+import com.krishantha.training.salesmanager.repository.HibernateEmployeeRepositoryImpl;
+
+public class EmployeeServiceImpl implements EmployeeService{
+
+	EmployeeRepository employeeRepository;
+	
+
+	public EmployeeServiceImpl(EmployeeRepository employeeRepository) {
+		System.out.println("Overload constructor executed");
+		this.employeeRepository = employeeRepository;
+	}
+
+	public EmployeeServiceImpl() {
+		System.out.println("default constructor executed");
+	}
+	
+	public EmployeeRepository getEmployeeRepository() {
+		return employeeRepository;
+	}
+	
+	public List<Employee> getAllEmployees() {
+		return employeeRepository.getAllEmployees();
+	}
+	
+
+}

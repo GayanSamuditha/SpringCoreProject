@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="com.krishantha.training.salesmanager.repository.EmployeeRepository"/>
+<fullyQualifiedTypeName name="com.krishantha.training.salesmanager.repository.HibernateEmployeeRepositoryImpl"/>
+<fullyQualifiedTypeName name="com.krishantha.training.salesmanager.service.EmployeeServiceImpl"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="ApplicationConfiguration"/>
+<fullyQualifiedTypeName name="com.krishantha.training.salesmanager.service.EmployeeService"/>
+</qualifiedTypeNameHistroy>
